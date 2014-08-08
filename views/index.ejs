@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <h2>Let's make a new Gnarwal!</h2>
+    <form action='gnarwals/new' method='post'>
+    	First Name: <input type='text' name='first_name'>
+    	Last Name: <input type='text' name='last_name'>
+    	Age: <input type='number' name='age'>
+    	<input type='submit' value='ADD GNARWAL!'>
+    </form>
+  </body>
+</html>
